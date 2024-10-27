@@ -29,7 +29,7 @@ Este repositório contém o código fonte da API RESTful para o backend da aplic
 
 ## Documentação:
 
-A documentação da API está disponível no nosso Notion: (Notion da ARGUS)[https://www.notion.so/ARGUS-Memorial-de-Desenvolvimento-1135144534ed804b81bcf1912b0613e7?pvs=4]
+A documentação da API está disponível no nosso Notion: [Notion da ARGUS](https://www.notion.so/ARGUS-Memorial-de-Desenvolvimento-1135144534ed804b81bcf1912b0613e7?pvs=4)
 Como Executar:
 
 ### Pré-requisitos:
@@ -153,7 +153,7 @@ Agradecemos a sua contribuição! 🎉
 
 ### Licença:
 
-(GNU General Public License v3.0)[./LICENSE.md]
+[GNU General Public License v3.0](./LICENSE.md)
 
 Equipe de Desenvolvimento:
 
