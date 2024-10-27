@@ -62,6 +62,8 @@ mvn spring-boot:run
 
 Para iniciar a API.
 
+-------------------------------------------------------------------------------------------------------------------------
+
 ### Como Contribuir
 
 Agradecemos o seu interesse em contribuir com o projeto ARGUS! Se você deseja participar do desenvolvimento, siga os passos abaixo:
@@ -149,6 +151,9 @@ git commit -m "[descrição concisa das suas alterações]"
 2. Siga as diretrizes de contribuição: Se houver diretrizes específicas para o projeto, siga-as cuidadosamente.
 3. Seja paciente: O processo de revisão de pull requests pode levar algum tempo.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Agradecemos a sua contribuição! 🎉
 
 ### Licença:
@@ -164,7 +169,8 @@ Equipe de Desenvolvimento:
 - Luan carlos wanderley da silva 
 - Ronaldo Rodrigues de Moura Júnior
 
+---------------------------------------------------------------------------
 
-Agradecimentos:
+### Agradecimentos:
 
 Agradecemos ao programa START pela oportunidade de desenvolver este projeto.
