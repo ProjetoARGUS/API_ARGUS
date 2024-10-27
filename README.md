@@ -47,18 +47,18 @@ Como Executar:
 
 Acesse o diretório do projeto:
 
-´´´
+```
 cd argus
-´´´
+```
 
 
 Configure o arquivo application.properties com as credenciais do banco de dados.
 
 Execute o comando:
 
-´´´
+```
 mvn spring-boot:run
-´´´
+```
 
 Para iniciar a API.
 
@@ -82,9 +82,9 @@ Agradecemos o seu interesse em contribuir com o projeto ARGUS! Se você deseja p
 
     Abra seu terminal e execute o comando:
    
-´´´
+```
     git clone [[URL do repositório]](https://github.com/ProjetoARGUS/API_ARGUS/)
-´´´
+```
 
 Isso criará uma cópia local do projeto em seu computador.
 
@@ -92,15 +92,15 @@ Isso criará uma cópia local do projeto em seu computador.
 
     Entre no diretório do projeto:
 
-´´´
+```
     cd [nome do diretório do projeto]
-´´´
+```
 
 Crie uma nova branch para suas alterações:
 
-´´´
+```
 git checkout -b [nome da branch]
-´´´
+```
     
 
 Por exemplo, se você deseja adicionar um novo recurso, nomeie a branch como "feature-novo-recurso".
@@ -111,21 +111,21 @@ Por exemplo, se você deseja adicionar um novo recurso, nomeie a branch como "fe
 
     Adicione as alterações ao staging area:
 
-´´´
+```
     git add [nome dos arquivos alterados]
-´´´
+```
 
 Ou então faça dessa forma para colocar todo os arquivos modificados na sessão de staged:
 
-´´´
+```
     git add .
-´´´
+```
 
 Faça um commit das alterações:
 
-´´´
+```
 git commit -m "[descrição concisa das suas alterações]"
-´´´
+```
 
    
 
