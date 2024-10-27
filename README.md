@@ -153,7 +153,7 @@ Agradecemos a sua contribuição! 🎉
 
 ### Licença:
 
-[Inserir informação sobre a licença do projeto.]
+(GNU General Public License v3.0)[./LICENSE.md]
 
 Equipe de Desenvolvimento:
 
