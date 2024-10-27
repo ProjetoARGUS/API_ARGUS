@@ -1,8 +1,9 @@
-API ARGUS: Gerenciamento de Condomínios
+# API ARGUS: Gerenciamento de Condomínios
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Este repositório contém o código fonte da API RESTful para o backend da aplicação ARGUS, um sistema de gerenciamento de condomínios desenvolvido como projeto de conclusão de curso do programa START.
 
-Funcionalidades:
+### Funcionalidades:
 
     Gerenciamento de Usuários: Cadastro, autenticação, atualização de dados, gerenciamento de permissões.
 
@@ -18,7 +19,7 @@ Funcionalidades:
 
     Gerenciamento de Áreas Comuns: Cadastro, atualização e exclusão de áreas comuns.
 
-Tecnologias:
+### Tecnologias:
 
     Spring Boot: Framework Java para desenvolvimento de aplicações web.
 
@@ -32,10 +33,9 @@ Tecnologias:
 
     Java 17: Linguagem de programação Java, versão 17.
 
-Documentação:
+### Documentação:
 
-A documentação da API está disponível em [inserir link para a documentação da API].
-
+A documentação da API está disponível no nosso Notion: (Notion da ARGUS)[https://www.notion.so/ARGUS-Memorial-de-Desenvolvimento-1135144534ed804b81bcf1912b0613e7?pvs=4]
 Como Executar:
 
     Pré-requisitos:
@@ -68,17 +68,111 @@ cd argus
 
     Execute o comando mvn spring-boot:run para iniciar a API.
 
-Contribuições:
+### Como Contribuir
 
-Contribuições são bem-vindas! Por favor, abra um issue para reportar bugs ou sugestões.
+Agradecemos o seu interesse em contribuir com o projeto ARGUS! Se você deseja participar do desenvolvimento, siga os passos abaixo:
 
-Licença:
+1. Fork do Projeto:
+
+    Acesse o repositório do projeto no GitHub: [API-PROEJTO-ARGUS](https://github.com/ProjetoARGUS/API_ARGUS/).
+
+    Clique no botão "Fork" no canto superior direito da página.
+
+    Agora você possui uma cópia do repositório em sua própria conta do GitHub.
+
+2. Clone do Projeto:
+
+    Acesse o repositório do projeto em sua própria conta do GitHub.
+
+    Clique no botão "Code" e copie a URL do repositório.
+
+    Abra seu terminal e execute o comando:
+   
+´´´
+    git clone [[URL do repositório]](https://github.com/ProjetoARGUS/API_ARGUS/)
+´´´
+
+    Isso criará uma cópia local do projeto em seu computador.
+
+4. Crie uma Nova Branch:
+
+    Entre no diretório do projeto:
+
+´´´
+    cd [nome do diretório do projeto]
+´´´
+
+Crie uma nova branch para suas alterações:
+
+´´´
+git checkout -b [nome da branch]
+´´´
+    
+
+    Por exemplo, se você deseja adicionar um novo recurso, nomeie a branch como "feature-novo-recurso".
+
+4. Faça o Commit de Mudanças:
+
+    Edite os arquivos do projeto e faça as suas alterações.
+
+    Adicione as alterações ao staging area:
+
+´´´
+    git add [nome dos arquivos alterados]
+´´´
+
+    Ou então faça dessa forma para colocar todo os arquivos modificados na sessão de staged:
+
+´´´
+    git add .
+´´´
+
+Faça um commit das alterações:
+
+      
+git commit -m "[descrição concisa das suas alterações]"
+
+    
+
+   
+
+5. Crie um Pull Request:
+
+    Acesse o repositório do projeto em sua própria conta do GitHub.
+
+    Vá até a branch onde você fez as alterações.
+
+    Clique no botão "New pull request".
+
+    Compare sua branch com a branch "main" do repositório original.
+
+    Insira uma descrição detalhada de suas alterações no pull request.
+
+    Clique em "Create pull request".
+
+### Observações:
+
+    Revise seu código antes de enviar um pull request: Verifique se as alterações estão funcionando corretamente e se seguem os padrões de codificação do projeto.
+
+    Siga as diretrizes de contribuição: Se houver diretrizes específicas para o projeto, siga-as cuidadosamente.
+
+    Seja paciente: O processo de revisão de pull requests pode levar algum tempo.
+
+Agradecemos a sua contribuição! 🎉
+
+### Licença:
 
 [Inserir informação sobre a licença do projeto.]
 
 Equipe de Desenvolvimento:
 
-[Inserir informações sobre a equipe de desenvolvimento.]
+- Ailton Francisco da Silva Neto
+- Breno do nascimento santos 
+- Derick Germano de Oliveira
+- Francisco Macedo de Santiago Neto
+- Luan carlos wanderley da silva 
+- Ronaldo Rodrigues de Moura Júnior
+
 
 Agradecimentos:
 
