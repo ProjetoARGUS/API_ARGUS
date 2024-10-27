@@ -5,68 +5,62 @@ Este repositório contém o código fonte da API RESTful para o backend da aplic
 
 ### Funcionalidades:
 
-    Gerenciamento de Usuários: Cadastro, autenticação, atualização de dados, gerenciamento de permissões.
-
-    Gerenciamento de Condomínios: Cadastro, atualização, exclusão de dados.
-
-    Comunicação: Envio de comunicados, gerenciamento de mensagens, notificações.
-
-    Reservas: Realização de reservas de espaços comuns, aprovação e controle de reservas.
-
-    Ocorrências: Registro de ocorrências no condomínio, acompanhamento de status.
-
-    Votações: Criação de sessões de votação, registro de votos, visualização de resultados.
-
-    Gerenciamento de Áreas Comuns: Cadastro, atualização e exclusão de áreas comuns.
+- Gerenciamento de Usuários: Cadastro, autenticação, atualização de dados, gerenciamento de permissões
+- Gerenciamento de Condomínios: Cadastro, atualização, exclusão de dados
+- Comunicação: Envio de comunicados, gerenciamento de mensagens, notificações
+- Reservas: Realização de reservas de espaços comuns, aprovação e controle de reservas
+- Ocorrências: Registro de ocorrências no condomínio, acompanhamento de status
+- Votações: Criação de sessões de votação, registro de votos, visualização de resultados
+- Gerenciamento de Áreas Comuns: Cadastro, atualização e exclusão de áreas comuns.
 
 ### Tecnologias:
 
-    Spring Boot: Framework Java para desenvolvimento de aplicações web.
+- Spring Boot: Framework Java para desenvolvimento de aplicações web.
 
-    Spring Data JPA: Framework para acesso a bancos de dados relacionais.
+- Spring Data JPA: Framework para acesso a bancos de dados relacionais.
 
-    Spring Security: Framework para segurança de aplicações web.
+- Spring Security: Framework para segurança de aplicações web.
 
-    JWT (JSON Web Token): Protocolo para autenticação e autorização.
+- JWT (JSON Web Token): Protocolo para autenticação e autorização
 
-    AMQP (Advanced Message Queuing Protocol): Protocolo para comunicação assíncrona, com suporte a RabbitMQ.
+- AMQP (Advanced Message Queuing Protocol): Protocolo para comunicação assíncrona, com suporte a RabbitMQ.
 
-    Java 17: Linguagem de programação Java, versão 17.
+- Java 17: Linguagem de programação Java, versão 17.
 
-### Documentação:
+## Documentação:
 
 A documentação da API está disponível no nosso Notion: (Notion da ARGUS)[https://www.notion.so/ARGUS-Memorial-de-Desenvolvimento-1135144534ed804b81bcf1912b0613e7?pvs=4]
 Como Executar:
 
-    Pré-requisitos:
+### Pré-requisitos:
 
-        Ter o Java 17 instalado.
+- Ter o Java 17 instalado.
+- Ter o Maven instalado.
+- Ter um banco de dados relacional configurado.
 
-        Ter o Maven instalado.
-
-        Ter um banco de dados relacional configurado.
-
-    Clone este repositório:
+### Clone este repositório:
 
           
     git clone https://github.com/seu-usuario/argus.git
 
         
 
-Use code with caution.Bash
-
 Acesse o diretório do projeto:
 
-      
+´´´
 cd argus
+´´´
 
-    
 
-    Use code with caution.Bash
+Configure o arquivo application.properties com as credenciais do banco de dados.
 
-    Configure o arquivo application.properties com as credenciais do banco de dados.
+Execute o comando:
 
-    Execute o comando mvn spring-boot:run para iniciar a API.
+´´´
+mvn spring-boot:run
+´´´
+
+Para iniciar a API.
 
 ### Como Contribuir
 
@@ -92,7 +86,7 @@ Agradecemos o seu interesse em contribuir com o projeto ARGUS! Se você deseja p
     git clone [[URL do repositório]](https://github.com/ProjetoARGUS/API_ARGUS/)
 ´´´
 
-    Isso criará uma cópia local do projeto em seu computador.
+Isso criará uma cópia local do projeto em seu computador.
 
 4. Crie uma Nova Branch:
 
@@ -109,7 +103,7 @@ git checkout -b [nome da branch]
 ´´´
     
 
-    Por exemplo, se você deseja adicionar um novo recurso, nomeie a branch como "feature-novo-recurso".
+Por exemplo, se você deseja adicionar um novo recurso, nomeie a branch como "feature-novo-recurso".
 
 4. Faça o Commit de Mudanças:
 
@@ -121,7 +115,7 @@ git checkout -b [nome da branch]
     git add [nome dos arquivos alterados]
 ´´´
 
-    Ou então faça dessa forma para colocar todo os arquivos modificados na sessão de staged:
+Ou então faça dessa forma para colocar todo os arquivos modificados na sessão de staged:
 
 ´´´
     git add .
@@ -129,10 +123,9 @@ git checkout -b [nome da branch]
 
 Faça um commit das alterações:
 
-      
+´´´
 git commit -m "[descrição concisa das suas alterações]"
-
-    
+´´´
 
    
 
@@ -152,11 +145,9 @@ git commit -m "[descrição concisa das suas alterações]"
 
 ### Observações:
 
-    Revise seu código antes de enviar um pull request: Verifique se as alterações estão funcionando corretamente e se seguem os padrões de codificação do projeto.
-
-    Siga as diretrizes de contribuição: Se houver diretrizes específicas para o projeto, siga-as cuidadosamente.
-
-    Seja paciente: O processo de revisão de pull requests pode levar algum tempo.
+1. Revise seu código antes de enviar um pull request: Verifique se as alterações estão funcionando corretamente e se seguem os padrões de codificação do projeto.
+2. Siga as diretrizes de contribuição: Se houver diretrizes específicas para o projeto, siga-as cuidadosamente.
+3. Seja paciente: O processo de revisão de pull requests pode levar algum tempo.
 
 Agradecemos a sua contribuição! 🎉
 
