@@ -72,7 +72,7 @@ Agradecemos o seu interesse em contribuir com o projeto ARGUS! Se você deseja p
 
 1. Fork do Projeto:
 
-    Acesse o repositório do projeto no GitHub: [API-PROEJTO-ARGUS](https://github.com/ProjetoARGUS/API_ARGUS/).
+    Acesse o repositório do projeto no GitHub: https://github.com/ProjetoARGUS/API_ARGUS/.
 
     Clique no botão "Fork" no canto superior direito da página.
 
